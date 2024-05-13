@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Receipt</title>
+    <style>
+        @media print {
+            .page-break {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Blue Order Receipt</h1>
+    <p><strong>Order Number:</strong> #12345</p>
+    <p><strong>Date:</strong> January 1, 2023</p>
+    <p><strong>Customer Name:</strong> John Doe</p>
+    <p><strong>Items:</strong></p>
+    <ul>
+        <li>Item 1 - $10.00</li>
+        <li>Item 2 - $20.00</li>
+        <li>Item 3 - $15.00</li>
+    </ul>
+    <p><strong>Total:</strong> $45.00</p>
+    <div data-shopify-page-break></div>
+    <div class="page-break"></div>
+    <h1>Shipping Details</h1>
+    <p><strong>Address:</strong> 123 Main Street, Cityville</p>
+    <p><strong>Shipping Method:</strong> Standard Shipping</p>
+    <p><strong>Estimated Delivery:</strong> January 10, 2023</p>
+</body>
+</html>
